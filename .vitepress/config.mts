@@ -206,7 +206,7 @@ export default defineConfig({
       ]
     },
     socialLinks: [
-      { icon: 'github', link: 'https://minglie.github.io/mivitedoc/' }
+      { icon: 'github', link: 'https://github.com/minglie/mivitedoc' }
     ],
      search: {
       provider: 'local'
