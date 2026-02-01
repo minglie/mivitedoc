@@ -4,9 +4,13 @@ export default defineConfig({
     base: '/mivitedoc/',
   title: "minglie",
   description: "my doc",
+    lastUpdated: true,
   // 明确指定源文件目录为 docs（和启动命令对应）
   srcDir: 'src',
   themeConfig: {
+    editLink: {
+      pattern: 'https://github.com/minglie/mivitedoc/edit/main/src/:path'
+    },
     nav: [
       { text: '主页', link: '/' },         
       { text: 'zynq', link: '/zynq/' }, 
