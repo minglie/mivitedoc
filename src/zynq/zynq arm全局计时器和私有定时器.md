@@ -1,5 +1,5 @@
 # BD
-![在这里插入图片描述](./img/0f8a0e08c2264ebc80eae40f3cfba2d1.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/0f8a0e08c2264ebc80eae40f3cfba2d1.png)
 # 目标
 1. 全局定时器产生时间戳
 2. 私有定时器产生200ms中断回调,打印时间戳
@@ -156,4 +156,4 @@ int main(void)
 }
 ```
 # 测试结果
-![在这里插入图片描述](./img/a34fc1648d984f329ba51dc643aa938d.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/a34fc1648d984f329ba51dc643aa938d.png)

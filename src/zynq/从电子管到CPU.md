@@ -26,33 +26,33 @@ _研究各种代数系统 _<font style="color:rgb(51, 51, 51);">群,环,域 模,
 
 # 物理级 & 开关级
 ## 真空电子管二极管(1904)
-  ![](./img/0684e32867794eae5fff735c7b7e129c.png)
-  ![](./img/a9b3e84402fe96389d5c55141e7c4ba7.jpeg)
+  ![](https://i-blog.csdnimg.cn/direct/0684e32867794eae5fff735c7b7e129c.png)
+  ![](https://i-blog.csdnimg.cn/direct/a9b3e84402fe96389d5c55141e7c4ba7.jpeg)
 
 
 
 ## 电子三极管（1906）
-![](./img/74d9b513700922c09ea8c4be3514fc98.gif)
-![](./img/3bd115dd25b4ae9895411d4d60ad0597.jpeg)
+![](https://i-blog.csdnimg.cn/direct/74d9b513700922c09ea8c4be3514fc98.gif)
+![](https://i-blog.csdnimg.cn/direct/3bd115dd25b4ae9895411d4d60ad0597.jpeg)
 
 ## 晶体三极管（<font style="color:rgb(51, 51, 51);">1947</font>）
-![](./img/84f1be849c425fe984c16db05cd4b28c.jpeg)
+![](https://i-blog.csdnimg.cn/direct/84f1be849c425fe984c16db05cd4b28c.jpeg)
 
 ## 场效应管
-![](./img/bff92846769828cfe7af5401a75e8313.png)
+![](https://i-blog.csdnimg.cn/direct/bff92846769828cfe7af5401a75e8313.png)
 
-![](./img/950d40a9e0612cf0ee1b6d592bdc3a11.png)
+![](https://i-blog.csdnimg.cn/direct/950d40a9e0612cf0ee1b6d592bdc3a11.png)
 
 N沟道增强型输出曲线
 
-![](./img/7a678f12d29296320c39d9344fe6d96d.png)
+![](https://i-blog.csdnimg.cn/direct/7a678f12d29296320c39d9344fe6d96d.png)
 
-![](./img/eb543712401176d550115a27d336730b.png)
+![](https://i-blog.csdnimg.cn/direct/eb543712401176d550115a27d336730b.png)
 
 
 
 ## 或非门  和  与非门
-![](./img/681f3528572700be04b9a74f20a39bba.png)
+![](https://i-blog.csdnimg.cn/direct/681f3528572700be04b9a74f20a39bba.png)
 
 主要缺点：
 
@@ -75,7 +75,7 @@ PMOS采用空穴导电，NMOS采用电子导电，由于PMOS的载流子的迁�
 在互补CMOS电路中，与非门是PMOS管并联，NMOS管串联，而或非门正好相反，所以，同样尺寸条件下，<font style="color:#DF2A3F;">与非门的速度快，所以，在互补CMOS电路中，优先选择与非门。</font>
 
 ## 与非门 (数字电路的原子)
-![](./img/92223a3d031eed23e9df2afebd8830f2.png)
+![](https://i-blog.csdnimg.cn/direct/92223a3d031eed23e9df2afebd8830f2.png)
 
 
 
@@ -83,13 +83,13 @@ PMOS采用空穴导电，NMOS采用电子导电，由于PMOS的载流子的迁�
 ## 门电路
 与非是完备的,只需与非门就可以搭建CPU
 
-![](./img/7f5b8ce833f85b2a8c2b50cd7225361e.jpeg)
-![](./img/4e38697b13feddb7c435392a605fc953.jpeg)
-![](./img/25594a1af53f520a06337cf39f3af085.jpeg)
+![](https://i-blog.csdnimg.cn/direct/7f5b8ce833f85b2a8c2b50cd7225361e.jpeg)
+![](https://i-blog.csdnimg.cn/direct/4e38697b13feddb7c435392a605fc953.jpeg)
+![](https://i-blog.csdnimg.cn/direct/25594a1af53f520a06337cf39f3af085.jpeg)
 
-![](./img/a4a0a1854ffd918a237b4c30708ae88c.jpeg)
-![](./img/05c055e6520d9cfcc15ee05427721507.jpeg)
-![](./img/87e04a21d1ce1d4b51d132364086029d.jpeg)
+![](https://i-blog.csdnimg.cn/direct/a4a0a1854ffd918a237b4c30708ae88c.jpeg)
+![](https://i-blog.csdnimg.cn/direct/05c055e6520d9cfcc15ee05427721507.jpeg)
+![](https://i-blog.csdnimg.cn/direct/87e04a21d1ce1d4b51d132364086029d.jpeg)
 
 ## 锁存器与触发器
 锁存器原型
@@ -102,7 +102,7 @@ X=1,Y=1
 
 即使撤去X的输入,Y仍保持撤去X之前的值,电路有记忆功能,所以产生了时序电路
 
-![](./img/14bcd43d8a8a7f8e93e41cfed2a7ae3d.png)
+![](https://i-blog.csdnimg.cn/direct/14bcd43d8a8a7f8e93e41cfed2a7ae3d.png)
 
 
 
@@ -110,52 +110,52 @@ X=1,Y=1
 
 
 
-![](./img/f5f13bab0c3e557839d25bba9f366554.png)
+![](https://i-blog.csdnimg.cn/direct/f5f13bab0c3e557839d25bba9f366554.png)
 
 
 
-![](./img/b7deb9e25adacbe7bf420fcca9bfb404.png)
+![](https://i-blog.csdnimg.cn/direct/b7deb9e25adacbe7bf420fcca9bfb404.png)
 
 
 
 
 
-![](./img/966eaf13701aaa06adf95730dd3962df.png)
+![](https://i-blog.csdnimg.cn/direct/966eaf13701aaa06adf95730dd3962df.png)
 
 
 
-![](./img/75aa746d9d35b9577c2678b45356c232.png)
+![](https://i-blog.csdnimg.cn/direct/75aa746d9d35b9577c2678b45356c232.png)
 
 
 
-![](./img/943b01a68c2cad97d90baa87f3d82788.png)
+![](https://i-blog.csdnimg.cn/direct/943b01a68c2cad97d90baa87f3d82788.png)
 
-![](./img/d6c8acbb7e5a69d29bf485533398320a.png)
+![](https://i-blog.csdnimg.cn/direct/d6c8acbb7e5a69d29bf485533398320a.png)
 
-![](./img/2bd86cdf91901d206858008598ecc193.png)
+![](https://i-blog.csdnimg.cn/direct/2bd86cdf91901d206858008598ecc193.png)
 
-![](./img/4b72c5062dbf8623e906c6e248b3e843.png)
+![](https://i-blog.csdnimg.cn/direct/4b72c5062dbf8623e906c6e248b3e843.png)
 
-![](./img/44fa99dedee5d6321a11da7d2d409777.png)
+![](https://i-blog.csdnimg.cn/direct/44fa99dedee5d6321a11da7d2d409777.png)
 
 
 
-![](./img/40cfc7e5e872eca71996f838de5268b3.png)
+![](https://i-blog.csdnimg.cn/direct/40cfc7e5e872eca71996f838de5268b3.png)
 
 # 可编程器件
 ## 组合逻辑的范式 ROM 
-![](./img/c45d6997f522185ab2800c2123685882.png)
-![](./img/5a647ce8da50d5d7fb59e03b4410f7ee.png)
-![](./img/5d1943796c0337344b6a78e2b8a4470c.png)
+![](https://i-blog.csdnimg.cn/direct/c45d6997f522185ab2800c2123685882.png)
+![](https://i-blog.csdnimg.cn/direct/5a647ce8da50d5d7fb59e03b4410f7ee.png)
+![](https://i-blog.csdnimg.cn/direct/5d1943796c0337344b6a78e2b8a4470c.png)
 
 
 
 ## LUT 查找表
 ABCD的地址线, RAM存不同的值，则LUT实现不同的逻辑
 
-# ![](./img/bfc513125a1a359ef353dcde537bd252.png)
+# ![](https://i-blog.csdnimg.cn/direct/bfc513125a1a359ef353dcde537bd252.png)
 ## LE   <font style="color:rgb(20, 21, 26);">可编程逻辑单元</font>
-![](./img/471ae9d1776b33c117b07e789d5ab9fa.png)
+![](https://i-blog.csdnimg.cn/direct/471ae9d1776b33c117b07e789d5ab9fa.png)
 
 # systemVerilog
 _SystemVerilog是Verilog的超集,用于硬件描述与验证_
@@ -168,7 +168,7 @@ _SystemVerilog是Verilog的超集,用于硬件描述与验证_
 
 大多数fpga不支持开关级描述, modelsim支持
 
-![](./img/d793f900db3c60a80265759639ffbf9d.png)
+![](https://i-blog.csdnimg.cn/direct/d793f900db3c60a80265759639ffbf9d.png)
 
 | <font style="color:rgb(51, 51, 51);">nmos</font> | <font style="color:rgb(51, 51, 51);">控制端</font> | <font style="color:rgb(51, 51, 51);">输出 </font> | <font style="color:rgb(51, 51, 51);"> 控制端</font> | <font style="color:rgb(51, 51, 51);">输出  </font> | <font style="color:rgb(51, 51, 51);"> </font> | <font style="color:rgb(51, 51, 51);">pmos</font> | <font style="color:rgb(51, 51, 51);">控制端</font> | <font style="color:rgb(51, 51, 51);">输出  </font> | <font style="color:rgb(51, 51, 51);"> 控制端</font> | <font style="color:rgb(51, 51, 51);"> 输出 </font> |
 | :---: | :--- | :---: | :--- | :---: | :--- | :---: | :--- | :---: | :--- | :--- |
@@ -251,9 +251,9 @@ endmodule
 
 <font style="color:rgb(51, 51, 51);">输入为 A、B、C、D，输出为 F，选择信号为 S1、S0，则 4 路选择器的表达式为：</font>
 
-![](./img/a061e59f7f9ea91e24c1fe36aa7b101d.png)
+![](https://i-blog.csdnimg.cn/direct/a061e59f7f9ea91e24c1fe36aa7b101d.png)
 
-![](./img/905c3246a2491e115d7499e82488d583.png)
+![](https://i-blog.csdnimg.cn/direct/905c3246a2491e115d7499e82488d583.png)
 
 下面的门电路的实例没起名字
 
@@ -279,7 +279,7 @@ endmodule
 
 门级锁存器
 
-![](./img/ff9b3754495c62db2516eeeaca7316d4.png)
+![](https://i-blog.csdnimg.cn/direct/ff9b3754495c62db2516eeeaca7316d4.png)
 
 
 
@@ -364,11 +364,11 @@ endmodule
 
 梯形图 与上面的数字电路功能上相同
 
-![](./img/4465520fba18d09327a860d416763231.png)
+![](https://i-blog.csdnimg.cn/direct/4465520fba18d09327a860d416763231.png)
 
 实物
 
-![](./img/eb66d77656ac6d3ed167c4609aa5a1da.jpeg)
+![](https://i-blog.csdnimg.cn/direct/eb66d77656ac6d3ed167c4609aa5a1da.jpeg)
 
 ## <font style="color:rgb(20, 21, 26);">寄存器传输级（RTL）</font>
 <font style="color:rgb(20, 21, 26);">RTL描述关注于数据在寄存器之间的流动以及基本的逻辑操作。它使用组合逻辑（如逻辑门、算术运算）和时序逻辑（如触发器、时钟边沿）来描述电路。</font>

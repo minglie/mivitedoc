@@ -6,7 +6,7 @@
 >- 1.0 设计 AXI-Lite Slave 外设（示例：写入 a，存储 a+1 的“自增 RAM”）  
 >- 1.1 通过 `M_AXI_GP0` 在 PS 侧读写该外设，验证数据交互  
 # BD图
-![在这里插入图片描述](./img/34d94e53e6834b3fbe556b6e127a8877.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/34d94e53e6834b3fbe556b6e127a8877.png)
 
 
 # 奇怪的RAM,写入的值a,存的却是a+1

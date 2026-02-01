@@ -53,7 +53,7 @@ f_\text{out} = \frac{4194304 \times 50\,\text{MHz}}{2^{32}} = 0.0488\,\text{MHz}
 $$
 
 # 仿真
-![在这里插入图片描述](./img/5b142a1ba9fe4553b403bfe8ad25959e.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/5b142a1ba9fe4553b403bfe8ad25959e.png)
 
 
 # dds.v

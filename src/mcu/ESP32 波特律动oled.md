@@ -2,7 +2,7 @@
 
 # ESP32 波特律动oled
 [波特律动字库生成器](https://led.baud-dance.com/)
-![在这里插入图片描述](./img/dafba6f650324598a51fa9f5da8dbaf9.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/dafba6f650324598a51fa9f5da8dbaf9.png)
 ```bash
 PS D:\workspace\gitee\ESP32-S3_Arduino_SSD1306> tree /F   
 卷 新加卷 的文件夹 PATH 列表

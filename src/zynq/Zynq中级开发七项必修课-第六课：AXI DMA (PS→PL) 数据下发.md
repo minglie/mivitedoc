@@ -11,8 +11,8 @@
 >  - 1.4  串口助手给PS发送 't'，PS收到't'后，发送新一轮的64个32位数据
 
 # BD图
-![](./img/axi_dma_ps_pl_bd.png)
-![](./img/axi_dma_ps_pl_0.png)
+![](https://i-blog.csdnimg.cn/direct/axi_dma_ps_pl_bd.png)
+![](https://i-blog.csdnimg.cn/direct/axi_dma_ps_pl_0.png)
 
 
 # axi_stream_slave.v
@@ -304,4 +304,4 @@ int main(void)
 ```
 
 ## 测试结果
-![alt text](./img/axi_dma_ps_pl_1.png)
+![alt text](https://i-blog.csdnimg.cn/direct/axi_dma_ps_pl_1.png)

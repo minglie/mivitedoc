@@ -1,5 +1,5 @@
 # BD
-![请添加图片描述](./img/7f04a78ecbc44e99a196b2592b906e92.png)
+![请添加图片描述](https://i-blog.csdnimg.cn/direct/7f04a78ecbc44e99a196b2592b906e92.png)
 # 目标
 1. 按下按键灯灭
 2. 松开按键灯亮

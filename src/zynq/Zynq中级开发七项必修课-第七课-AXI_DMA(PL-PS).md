@@ -18,8 +18,8 @@
 > - axi_stream_master 检测到TREADY=1,开始吐流固定的64字节数据0x00 ~0x3F；
 > - PS 在 AXI DMA 的 S2MM 中断服务函数中打印 “RX done”，并打印收到的64字节数据。
 # BD图
-![请添加图片描述](./img/bf7007421aa64931b5f2ea07306662f1.png)
-![在这里插入图片描述](./img/077ef344635b410994f207bb9bd802f0.png)
+![请添加图片描述](https://i-blog.csdnimg.cn/direct/bf7007421aa64931b5f2ea07306662f1.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/077ef344635b410994f207bb9bd802f0.png)
 # axi_stream_master.v
 ```verilog
 `timescale 1 ns / 1 ps
@@ -431,10 +431,10 @@ static int CheckData(int length, u8 start_value)
 ```
 
 # 测试结果
-![在这里插入图片描述](./img/5402adb7d91443b79cfea4149a4259d1.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/5402adb7d91443b79cfea4149a4259d1.png)
 # 观察波形
 虽然实验结果正确, 但观察波形有问题, 推流数据不是用0x00开始的, 并且推流被截成了两段
-![在这里插入图片描述](./img/7e0c39671b994364af10c69170a0bb94.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/7e0c39671b994364af10c69170a0bb94.png)
 # 问题排查
 ## 先用modelsim单独测测 axi_stream_master
 ```verilog
@@ -568,9 +568,9 @@ module tb;
 endmodule
 ```
  观察波形传输时机不对
-![在这里插入图片描述](./img/28b98f6f7bb34282aeb98d8173ca1661.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/28b98f6f7bb34282aeb98d8173ca1661.png)
 # 问题修正
-![在这里插入图片描述](./img/480d3f51f3a54cafbd84daa6ed4472b0.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/480d3f51f3a54cafbd84daa6ed4472b0.png)
 # 修正目标
 >  - axi_stream_master 用固定的64字节数据0x00 ~0x3F；
 > -  在axi_stream_master.o_rdy=1时 用串口助手给PS发送字符't',让PS配置并启动DMA；
@@ -710,10 +710,10 @@ endmodule
 
 ## 先启动吐流, 后启动DMA
 数据容易对不齐
-![在这里插入图片描述](./img/daed1ff93dca4d689b2de7ff42112448.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/daed1ff93dca4d689b2de7ff42112448.png)
 ## 先启动DMA,后启动吐流
 数据对齐,满足需求
-![在这里插入图片描述](./img/2424a49c25b44c02a6fed247ef6111c4.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/2424a49c25b44c02a6fed247ef6111c4.png)
 #  改正后的axi_stream_master.v
 新增 i_start,o_done,o_rdy 三个信号, i_start和o_rdy 应当接入到PS。
 PS轮询o_rdy 是否就绪, 然后启动DMA，再启动i_start, 接方式可以用

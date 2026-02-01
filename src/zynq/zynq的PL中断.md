@@ -3,7 +3,7 @@
 在 Zynq 系统中，**PL 中断**是 PL向PS发出事件通知的重要机制。  
 常见应用场景为 **中断通知**、**定时信号** 等。  
 本文将详细介绍如何从 **Vivado 配置 → 裸机使用 → Device Tree 配置 → Linux 驱动 → Linux 应用**，一步步实现一个 PL 中断。
-![在这里插入图片描述](./img/5ed91f7b38144e5da951f5dffc5f48be.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/5ed91f7b38144e5da951f5dffc5f48be.png)
 
 
 ---

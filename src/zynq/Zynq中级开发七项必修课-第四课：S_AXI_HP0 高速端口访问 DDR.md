@@ -1,7 +1,6 @@
 # Zynq中级开发七项必修课-第四课：S_AXI_HP0 高速端口访问 DDR
 
-[目录](Zynq中级开发七项必修课-第零课：目录.md)
-
+[目录](https://blog.csdn.net/qq_26074053/article/details/150427199)
 
 和第三课的内容基本一致，只是把S_AXI_GP0 替换为S_AXI_HP0,
 每按下一次按键，就把按键按下的次数m,m+1,...m+1023
@@ -23,8 +22,8 @@ axi_full_master 引入了手动复位
 - 高速数据传输用 HP，匹配其高吞吐量特性；
 - 需要缓存一致性时才用 ACP，避免不必要的复杂性。
 
-![alt text](img/S_AXI_HP0.png)
 
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/f98e9f1e0d614512b6ddf2fc93279ccd.png)
 # axi_full_master.v
 在INIT_AXI_TXN的上升沿
 把 i_key_pulse_cnt
@@ -51,7 +50,7 @@ module axi_full_master #
     // 请勿修改此行以下的参数
 
     // 目标从设备的基地址
-    parameter  C_M_TARGET_SLAVE_BASE_ADDR	= 32'h10000000,
+    parameter  C_M_TARGET_SLAVE_BASE_ADDR	= 32'h40000000,
     // 突发长度。支持 1, 2, 4, 8, 16, 32, 64, 128, 256
     parameter integer C_M_AXI_BURST_LEN	= 16,
     // 线程 ID 宽度
@@ -1115,4 +1114,4 @@ int main() {
 
 ```
 ## 测试结果
-![alt text](img/S_AXI_HP0_0.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/80bd7fe3d91349a3bc290d27392205d5.png)

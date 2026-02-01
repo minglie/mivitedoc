@@ -1,21 +1,15 @@
 # Zynq中级开发七项必修课-第三课：S_AXI_GP0 主动访问 PS 地址空间
-
-
-[目录](Zynq中级开发七项必修课-第零课：目录.md)
-
+[目录](https://blog.csdn.net/qq_26074053/article/details/150427199)
 # 目标
 
 > - 1.0 编写 AXI-Lite Master：按键计数 → 写入 PS 内存  
 >  - 1.1 PL 触发中断 → PS 响应并串口打印按键计数值  
 
-
-
 # BD图
-
-![alt text](img/S_AXI_GP0.png)
+![请添加图片描述](https://i-blog.csdnimg.cn/direct/ed9b4f4f8c404473896c2b94bd9a6c35.png)
 
 # axi_lite_master.v
-``` verilog
+```verilog
 // =====================================================
 // AXI4-Lite Simple Master (single-shot, non-pipelined)
 // - Pure Verilog-2001
@@ -186,7 +180,7 @@ endmodule
 ```
 
 # key_debounce.v
-``` verilog
+```verilog
 // ============================================================================
 // Module name : key_debounce
 // Author      : ming
@@ -244,7 +238,7 @@ endmodule
 ```
 
 # pulse_rise_counter.v
-``` verilog
+```verilog
 `timescale 1ns/1ps
 // pulse_rise_counter.v — 上升沿计数器（简洁版）
 // - 记录 i_sig 的上升沿个数到 o_count
@@ -287,7 +281,7 @@ endmodule
 
 ```
 # blink_led.v
-``` verilog
+```verilog
 module blink_led #(
     parameter P_CLK_FREQ  = 50_000_000,   // 时钟频率
     parameter P_BLINK_HZ  = 1             // 闪烁频率
@@ -319,7 +313,7 @@ endmodule
 ```
 
 # system.xdc
-``` shell
+```shell
 
 #开发板约束文件
 
@@ -352,7 +346,7 @@ set_property -dict {PACKAGE_PIN M15 IOSTANDARD LVCMOS33} [get_ports PL_UART_TXD]
 
 
 # PS 裸机测试
-``` c
+```c
 #include "xil_io.h"
 #include "xil_mmu.h"
 #include "xil_printf.h"
@@ -492,5 +486,4 @@ int main() {
 }
 ```
 ## 测试结果
-
-![alt text](img/S_AXI_GP0_0.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/cb979ec3c0624c4b8706164dad21e823.png)

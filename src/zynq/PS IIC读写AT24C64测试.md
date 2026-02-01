@@ -1,5 +1,5 @@
 # BD
-![在这里插入图片描述](./img/fbed06d45a2842e9be81a5b1be1fbb94.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/fbed06d45a2842e9be81a5b1be1fbb94.png)
 ```bash
 set_property PACKAGE_PIN E18 [get_ports IIC_EMIO_scl_io]
 set_property PACKAGE_PIN F17 [get_ports IIC_EMIO_sda_io]

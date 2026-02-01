@@ -1,5 +1,5 @@
 # 原理图
-![在这里插入图片描述](./img/b9044c59dd234035b408c1d70f493b60.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/b9044c59dd234035b408c1d70f493b60.png)
 # main.py
 ```python
 from machine import Pin

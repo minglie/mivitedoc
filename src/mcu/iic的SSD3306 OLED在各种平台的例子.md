@@ -1,5 +1,5 @@
 # raspberrypi Pico 硬件iic
-![在这里插入图片描述](./img/df4cf00868834f4cbe49dcc9b4e9f878.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/df4cf00868834f4cbe49dcc9b4e9f878.png)
 
 [pico-sdk-api文档](https://www.raspberrypi.com/documentation/pico-sdk/hardware.html#group_hardware_pio)
 
@@ -1384,7 +1384,7 @@ int OLED_Printf(uint8_t x, uint8_t line,const char *fmt, ...)
 
 # ESP32 波特律动oled
 [波特律动字库生成器](https://led.baud-dance.com/)
-![在这里插入图片描述](./img/dafba6f650324598a51fa9f5da8dbaf9.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/dafba6f650324598a51fa9f5da8dbaf9.png)
 ```bash
 PS D:\workspace\gitee\ESP32-S3_Arduino_SSD1306> tree /F   
 卷 新加卷 的文件夹 PATH 列表

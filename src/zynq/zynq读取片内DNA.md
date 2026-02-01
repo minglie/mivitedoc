@@ -1,5 +1,5 @@
 # BD
-![在这里插入图片描述](./img/049b9b8dc6844d949580e189cf14160c.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/049b9b8dc6844d949580e189cf14160c.png)
 ```bash
 #时序约束
 create_clock -period 20.000 -name sys_clk [get_ports sys_clk]
@@ -63,4 +63,4 @@ endmodule
 ```
 
 # 测试
-![在这里插入图片描述](./img/4b6f4ea8d71743eb9df41ce26cbe3258.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/4b6f4ea8d71743eb9df41ce26cbe3258.png)

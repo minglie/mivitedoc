@@ -1,5 +1,5 @@
 # BD
-![在这里插入图片描述](./img/4696a8fa78374d5a822a656d18cd58d2.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/4696a8fa78374d5a822a656d18cd58d2.png)
 
 ```bash
 #时序约束
@@ -139,4 +139,4 @@ endmodule
 ```
 
 # 测试
-![在这里插入图片描述](./img/b4869337a5fc42aaa56d67dee03fc867.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/b4869337a5fc42aaa56d67dee03fc867.png)

@@ -1,5 +1,5 @@
 # BD
-![在这里插入图片描述](./img/4c77d74cf2ae44c085d1ffc8550db58e.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/4c77d74cf2ae44c085d1ffc8550db58e.png)
 # 目标
 1. 读取外部引脚电压并打印
 # 裸机测试
@@ -74,4 +74,4 @@ int main(void)
 ```
 
 # 测试结果
-![在这里插入图片描述](./img/76395d12db6c479986acb21e696b4418.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/76395d12db6c479986acb21e696b4418.png)

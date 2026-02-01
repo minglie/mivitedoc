@@ -236,7 +236,7 @@
 
 📌 使用 AXI DMA 时，注意 Stream 端必须接 FIFO/Stream slave，内存端地址需软件配置。
 
-![请添加图片描述](./img/b38c9471b63c4f3ea8d9af456faf002e.png)
+![请添加图片描述](https://i-blog.csdnimg.cn/direct/b38c9471b63c4f3ea8d9af456faf002e.png)
 
 ---
 

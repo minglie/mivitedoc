@@ -165,9 +165,9 @@ timeline
 ## 8bit位宽通讯波形
 > 紫色是主机控制总线
 黄色是从机控制总线
-![在这里插入图片描述](./img/1a974e5634b34a7b9c69ffba764e713e.jpeg#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/1a974e5634b34a7b9c69ffba764e713e.jpeg#pic_center)
 ## 8bit位宽 ila 波形
-![在这里插入图片描述](./img/a89e2a73f51446078654d6c8a7c1cc02.png#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/a89e2a73f51446078654d6c8a7c1cc02.png#pic_center)
 
 
 # 帧时长示例（8bit 数据帧）

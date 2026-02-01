@@ -3,9 +3,9 @@
 
 # 时序图
 i_key 按下一段时间,o_key_pulse 输出一个单周期脉冲
-![在这里插入图片描述](./img/4a262d5a745c499ab6c682525ada40bb.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/4a262d5a745c499ab6c682525ada40bb.png)
 # 仿真图
-![在这里插入图片描述](./img/01fe7d04fb0544daa4a276fd465345d2.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/01fe7d04fb0544daa4a276fd465345d2.png)
 
 # key_debounce.v
 ```verilog

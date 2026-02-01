@@ -1,5 +1,5 @@
 
-![在这里插入图片描述](./img/3d2a570f9ff94e2382f4909a062aca48.jpeg)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/3d2a570f9ff94e2382f4909a062aca48.jpeg)
 
 
 推荐仓库 [axi4-interface](https://github.com/mmxsrup/axi4-interface)  有各种 AXI总线协议的SystemVerilog的例子,并有配套直接能跑的Testbench。
@@ -23,12 +23,12 @@
 
 
 # 纯pl的bd
-![在这里插入图片描述](./img/47edcf350355492994b40b1924cec5fb.png#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/47edcf350355492994b40b1924cec5fb.png#pic_center)
 # 带ps的bd
-![在这里插入图片描述](./img/18dd0e1135914347b11aba7b42194b83.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/18dd0e1135914347b11aba7b42194b83.png)
 
 # 时序图
-![在这里插入图片描述](./img/7c0fb0557a934dbca9db65eb242e3a71.png#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/7c0fb0557a934dbca9db65eb242e3a71.png#pic_center)
 
 
 # AXI_lite 五个通道功能表

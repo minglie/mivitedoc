@@ -19,7 +19,7 @@ AXI-Lite的原理和使用可参考我的另一篇文章：
 
 
 # BD图
-![在这里插入图片描述](./img/0dc97a87778441e29460e706fd034ee5.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/0dc97a87778441e29460e706fd034ee5.png)
 
 ---
 

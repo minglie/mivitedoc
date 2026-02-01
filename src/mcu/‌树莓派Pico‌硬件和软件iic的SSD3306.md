@@ -1,4 +1,4 @@
-![在这里插入图片描述](./img/df4cf00868834f4cbe49dcc9b4e9f878.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/df4cf00868834f4cbe49dcc9b4e9f878.png)
 
 [pico-sdk-api文档](https://www.raspberrypi.com/documentation/pico-sdk/hardware.html#group_hardware_pio)
 
