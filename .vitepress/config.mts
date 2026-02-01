@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+    base: '/mivitedoc/',
   title: "minglie",
   description: "my doc",
   // 明确指定源文件目录为 docs（和启动命令对应）
