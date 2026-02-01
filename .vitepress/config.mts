@@ -140,7 +140,6 @@ export default defineConfig({
             { text: '数字华容道玩法', link: '/math/数字华容道玩法.md' },
             { text: '数学物理公式', link: '/math/数学物理公式.md' },
             { text: '有限状态机的九元组定义', link: '/math/有限状态机的九元组定义.md' },
-            { text: '电枢公式--电枢绕线的规律', link: '/math/电枢公式--电枢绕线的规律.md' },
             { text: '离生活最近的数学--换酒定理', link: '/math/离生活最近的数学--换酒定理.md' },
             { text: '等价关系与不变量', link: '/math/等价关系与不变量.md' },
             { text: '简化符号--集合符', link: '/math/简化符号--集合符.md' },
