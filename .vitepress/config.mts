@@ -16,6 +16,7 @@ export default defineConfig({
       { text: 'zynq', link: '/zynq/' }, 
       { text: 'math', link: '/math/' },
       { text: 'mcu', link: '/mcu/' },
+      { text: 'ssyj', link: '/ssyj/' },
       { text: 'python', link: '/python/' }      
     ],
     sidebar: {
@@ -201,6 +202,15 @@ export default defineConfig({
             { text: 'pyscript测试', link: '/python/pyscript测试.md' },
             { text: 'rust借用核心', link: '/python/rust借用核心.md' },
             { text: 'rust的串口回环测试', link: '/python/rust的串口回环测试.md' }
+          ]
+        }
+      ],
+       '/ssyj/': [
+        {
+          text: '算术研究相关文档',
+          items: [
+            { text: '电子教材', link: '/ssyj/index.md' },
+            { text: '算术研究', link: '/ssyj/算术研究.md' },
           ]
         }
       ]

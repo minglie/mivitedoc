@@ -821,7 +821,7 @@ void my_led_key(
 }
 ```
 ## 输出
-```verolog
+```verilog
 `timescale 1 ns / 1 ps 
 module my_led_key (
         key_in,
