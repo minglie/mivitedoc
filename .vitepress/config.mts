@@ -124,6 +124,7 @@ export default defineConfig({
           text: '数学相关文档',
           items: [
             { text: '首页', link: '/math/index.md' },
+          { text: '扑克置换问题', link: '/math/扑克置换问题.md' },
             { text: 'nim游戏原理', link: '/math/nim游戏原理.md' },
             { text: '一家人过桥问题', link: '/math/一家人过桥问题.md' },
             { text: '代数基本定理', link: '/math/代数基本定理.md' },
